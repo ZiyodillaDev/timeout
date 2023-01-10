@@ -1,0 +1,75 @@
+.spinners {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.btns {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+}
+
+.js-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.active {
+  color: black;
+}
+
+.changes {
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+}
+
+.js-list {
+  margin-left: 12px;
+}
+
+.hero {
+  margin-top: 12px;
+  text-align: center !important;
+}
+
+@-webkit-keyframes spinner-grow {
+  0% {
+    transform: scale3d(5);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 2;
+    transform: none;
+  }
+}
+
+@keyframes spinner-grow {
+  0% {
+    transform: scale3d(5);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 2;
+    transform: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .changes {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}/*# sourceMappingURL=main.css.map */
